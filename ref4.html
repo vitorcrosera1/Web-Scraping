@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<title> Test - Article 2 </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<style>
+  #foo {
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+  }
+  </style>
+  <style>
+box {
+  background-color: white;
+  width: 30px;
+  border: 2px solid grey;
+  padding: 5px;
+  margin: 2px;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column" style="background-color:#FFFFFF;">
+ 
+<iframe src="ref1.pdf" width="100%" height="500px">
+    </iframe>
+</div>
+
+<div class="column" style="background-color:#FFFFFF;">
+  
+<h1> Test - REF1</h1>
+<div class="text">
+  <div class="text">
+  <box>Account#:</box>
+  </div>
+  <br>
+  <div class="account">
+  <box>666666</box>
+  </div>
+  <br>
+    <div class="text">
+  <box>Security Name:</box>
+  </div>
+  <br>
+    <div class="security">
+  <box>DEF123asd</box>
+  </div>
+  <br>
+    <div class="text">
+  <box>Company:</box>
+  </div>
+  <br>
+    <div class="company">
+  <box>POI company</box>
+  </div>
+  <br>
+    <div class="text">
+  <box>Trade Date:</box>
+  </div>
+  <br>
+    <div class="trade">
+  <box>19/07/2021</box>
+  </div>
+  <br>
+    <div class="text">
+  <box>Settle Date:</box>
+  </div>
+  <br>
+    <div class="settle">
+  <box>07/22/2021</box>
+  </div>
+  <br>
+    <div class="text">
+  <box>CUSIP#:</box>
+  </div>
+  <br>
+    <div class="CUSIP">
+  <box>213asv#12</box>
+  </div>
+
+</div>
+</div>
+
+</body>
+<div id="foo">       
+<button onclick="goBack()">Go Back</button></div>             
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+</html>

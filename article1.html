@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<title> Test - Article 1 </title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<style>
+  #foo {
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+  }
+  </style>
+</head>
+<body>
+<table>
+  <tr>
+    <th>Status</th>
+    <th>Today</th>
+    <th>Yesterday</th>
+	<th>WTD</th>
+	<th>MTD</th>
+	<th>YTD</th>
+  </tr>
+  <tr>
+	<td>Newly Received</td>
+    <td><a href="article2.html">10</a></td>
+    <td><a href="article2.html">0</a></td>
+    <td><a href="article2.html">0</a></td>
+	<td><a href="article2.html">0</a></td>
+	<td><a href="article2.html">0</a></td>
+  </tr>
+  <tr>
+    <td>Review Needed</td>
+    <td><a href="article2.html">0</a></td>
+    <td><a href="article2.html">0</a></td>
+    <td><a href="article2.html">0</a></td>
+	<td><a href="article2.html">0</a></td>
+	<td><a href="article2.html">0</a></td>
+  </tr>
+  <tr>
+    <td>Approved</td>
+    <td><a href="article2.html">0</a></td>
+    <td><a href="article2.html">0</a></td>
+    <td><a href="article2.html">0</a></td>
+	<td><a href="article2.html">0</a></td>
+	<td><a href="article2.html">0</a></td>
+  </tr>
+  <tr>
+    <td>Declined</td>
+    <td><a href="article2.html">0</a></td>
+    <td><a href="article2.html">12</a></td>
+    <td><a href="article2.html">70</a></td>
+	<td><a href="article2.html">210</a></td>
+	<td><a href="article2.html">830</a></td>
+  </tr>
+  <tr>
+	<td>Total</td>
+    <td><a href="article2.html">10</a></td>
+    <td><a href="article2.html">12</a></td>
+    <td><a href="article2.html">70</a></td>
+	<td><a href="article2.html">210</a></td>
+	<td><a href="article2.html">830</a></td>
+  </tr>
+</table> 
+<div id="foo">       
+<button onclick="goBack()">Go Back</button></div>             
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+</body>
+</html>
